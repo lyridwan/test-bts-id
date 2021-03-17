@@ -23,6 +23,6 @@ db.connect()
         console.log(err)
     })
 
-server.listen(8888, () => {
+server.listen(3306, () => {
     console.log("Service running on port 3306")
 })
